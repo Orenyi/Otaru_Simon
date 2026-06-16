@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-heading: "Sora", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* --------- Background Colors ----------------- */
+  --bg-primary: #050816;
+  --bg-secondary: #0b1023;
+  --bg-card: #111827;
+  --bg-card-light: #151c35;
+
+  /* --------- Primary Brand Colors ----------------- */
+  --primary: #7c3aed;
+  --primary-light: #a855f7;
+  --primary-dark: #5b21b6;
+
+  /* --------- Secondary Accent ----------------- */
+  --secondary: #06b6d4;
+  --secondary-light: #22d3ee;
+
+  /* --------- Success Accent----------------- */
+  --success: #22c55e;
+
+  /* --------- Text Colors ----------------- */
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  /* --------- Border Colors ----------------- */
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(124, 58, 237, 0.4);
+
+  /* --------- Glow Effects ----------------- */
+  --glow-purple: rgba(124, 58, 237, 0.45);
+  --glow-cyan: rgba(6, 182, 212, 0.35);
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
