@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedinIn, FaCode } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaCode, FaWhatsapp } from "react-icons/fa";
+
 import { MdOutlineMail, MdLocationOn } from "react-icons/md";
 import { FiPhone, FiArrowUp } from "react-icons/fi";
 
@@ -32,16 +33,17 @@ const Footer = () => {
               </a>
 
               <a
-                href="tel:+2348167527125"
+                href="https://wa.me/2348167527125"
+                target="_blank"
                 className="flex items-center gap-3 transition hover:text-purple-300"
               >
-                <FiPhone />
+                <FaWhatsapp />
                 +234 816 752 7125
               </a>
 
               <p className="flex items-center gap-3">
                 <MdLocationOn />
-                Gwagwalada, Abuja, Nigeria
+                Abuja, Nigeria
               </p>
             </div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import { IoPaperPlaneSharp } from "react-icons/io5";
 
 const Contact = () => {
@@ -52,11 +53,12 @@ const Contact = () => {
             </a>
 
             <a
-              href="tel:+2348167527125"
+              href="https://wa.me/2348167527125"
+              target="_blank"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-7 py-4 text-sm font-semibold text-white backdrop-blur transition hover:-translate-y-1 hover:border-purple-400/40 hover:bg-white/10"
             >
-              <FiPhoneCall />
-              Schedule a Call
+              <FaWhatsapp />
+              Let’s Chat
             </a>
           </div>
         </div>

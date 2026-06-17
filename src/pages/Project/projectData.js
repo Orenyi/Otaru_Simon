@@ -38,8 +38,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Cleva",
-    description: "Cleva is a banking app, so I just recreated their homepage ",
+    title: "Cleva Clone",
+    description: "Smart USD banking for you and your business",
     image: cleva,
     tags: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://tranquil-chaja-5d4398.netlify.app/",

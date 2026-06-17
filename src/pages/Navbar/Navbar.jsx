@@ -50,7 +50,7 @@ const Navbar = () => {
             onClick={() => handleNavClick("home")}
             className="text-3xl text-purple-300 transition hover:text-purple-400"
           >
-            <FaCode />
+            <img src="/logo.png" alt="Logo" className="w-[50px]" />
           </button>
 
           {/* Desktop Nav */}

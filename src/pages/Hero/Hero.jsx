@@ -20,7 +20,7 @@ const Hero = () => {
     <section
       id="home"
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen overflow-hidden bg-[var(--bg-primary)] px-4 pt-24 lg:pt-36 text-white min-[375px]:px-6 md:px-12 lg:px-10 xl:px-20"
+      className="relative min-h-screen overflow-hidden bg-[var(--bg-primary)] px-4 pt-32 lg:pt-36 text-white min-[375px]:px-6 md:px-12 lg:px-10 xl:px-20"
     >
       {/* Mouse glow */}
       <div
