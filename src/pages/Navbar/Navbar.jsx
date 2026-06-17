@@ -6,6 +6,7 @@ import { FaCode } from "react-icons/fa6";
 const navLinks = [
   { id: "expertise", label: "about", number: "02" },
   { id: "projects", label: "projects", number: "03" },
+  { id: "stack", label: "stack", number: "04" },
   { id: "experience", label: "experience", number: "04" },
 ];
 
