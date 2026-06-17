@@ -20,7 +20,7 @@ const Hero = () => {
     <section
       id="home"
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen overflow-hidden bg-[var(--bg-primary)] px-4 pt-24 text-white min-[375px]:px-6 md:px-12 lg:px-20"
+      className="relative min-h-screen overflow-hidden bg-[var(--bg-primary)] px-4 pt-24 lg:pt-36 text-white min-[375px]:px-6 md:px-12 lg:px-10 xl:px-20"
     >
       {/* Mouse glow */}
       <div
@@ -50,7 +50,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 35 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="max-w-3xl font-heading text-[2.25rem] font-extrabold leading-[1.22] tracking-tight min-[375px]:text-[2.55rem] sm:text-5xl md:text-6xl lg:text-6xl"
+            className="max-w-3xl font-heading text-[2.25rem] font-extrabold leading-[1.22] tracking-tight min-[375px]:text-[2.55rem] sm:text-4xl md:text-6xl lg:text-5xl xl:text-6xl"
           >
             I build clean, <br />
             responsive &{" "}
@@ -64,7 +64,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.7 }}
-            className="mt-6 max-w-xl text-base leading-8 text-[var(--text-secondary)] md:text-lg"
+            className="mt-6 max-w-xl text-base leading-8 text-[var(--text-secondary)] md:text-[0.8rem] lg:text-[1rem]"
           >
             I’m Simon Orenyi Otaru, a Front-End Developer and Computer Science
             undergraduate passionate about creating intuitive web applications

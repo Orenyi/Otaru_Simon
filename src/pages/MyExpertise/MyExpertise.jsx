@@ -51,7 +51,7 @@ const MyExpertise = () => {
   return (
     <section
       id="expertise"
-      className="relative overflow-hidden px-6 py-20 md:px-10 lg:px-20"
+      className="relative overflow-hidden px-6 py-20 md:px-10 lg:px-10 lg:px-10 xl:px-20"
     >
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-500/10 blur-[120px] rounded-full" />

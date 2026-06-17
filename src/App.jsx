@@ -5,10 +5,12 @@ import MyExpertise from "./pages/MyExpertise/MyExpertise";
 import Project from "./pages/Project/Project";
 import Stack from "./pages/Stack/Stack";
 import Contact from "./pages/Contact/Contact";
+import Navbar from "./pages/Navbar/Navbar";
 
 const App = () => {
   return (
     <section>
+      <Navbar />
       <Hero />
       <MyExpertise />
       <Project />

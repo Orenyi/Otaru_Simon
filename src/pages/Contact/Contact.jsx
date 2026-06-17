@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-[var(--bg-primary)] px-4 py-20 min-[375px]:px-6 md:px-10 lg:px-20"
+      className="relative overflow-hidden bg-[var(--bg-primary)] px-4 py-20 min-[375px]:px-6 md:px-10 lg:px-10 xl:px-20"
     >
       <div className="absolute left-0 top-10 h-72 w-72 rounded-full bg-purple-500/10 blur-[120px]" />
       <div className="absolute right-0 bottom-10 h-72 w-72 rounded-full bg-cyan-500/10 blur-[120px]" />
@@ -32,11 +32,11 @@ const Contact = () => {
           </motion.div>
 
           <div>
-            <h2 className="max-w-xl text-3xl font-bold leading-tight text-white md:text-5xl">
+            <h2 className="max-w-xl text-3xl font-bold leading-tight text-white md:text-4xl xl:text-5xl">
               Let’s build something amazing together
             </h2>
 
-            <p className="mt-4 max-w-xl text-sm leading-7 text-[var(--text-secondary)] md:text-base">
+            <p className="mt-4 max-w-xl text-sm leading-7 text-[var(--text-secondary)] md:text-base lg:text-[0.8rem]">
               I’m currently open to freelance opportunities and exciting
               frontend projects. Let’s bring your ideas to life!
             </p>

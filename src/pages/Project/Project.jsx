@@ -27,7 +27,7 @@ const Project = () => {
   return (
     <section
       id="projects"
-      className="relative overflow-hidden bg-[var(--bg-primary)] px-6 py-20 md:px-10 lg:px-20"
+      className="relative overflow-hidden bg-[var(--bg-primary)] px-6 py-20 md:px-10 lg:px-10 xl:px-20"
     >
       <div className="absolute left-0 top-20 h-72 w-72 rounded-full bg-purple-500/10 blur-[120px]" />
       <div className="absolute bottom-20 right-0 h-72 w-72 rounded-full bg-cyan-500/10 blur-[120px]" />

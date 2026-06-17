@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="relative overflow-hidden bg-[var(--bg-primary)] px-4 py-20 min-[375px]:px-6 md:px-10 lg:px-20"
+      className="relative overflow-hidden bg-[var(--bg-primary)] px-4 py-20 min-[375px]:px-6 md:px-10 lg:px-10 xl:px-20"
     >
       <div className="absolute left-0 top-10 h-72 w-72 rounded-full bg-purple-500/10 blur-[120px]" />
       <div className="absolute right-0 bottom-10 h-72 w-72 rounded-full bg-cyan-500/10 blur-[120px]" />
