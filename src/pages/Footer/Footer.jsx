@@ -33,8 +33,9 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://wa.me/2348167527125"
+                href="https://wa.me/2348167527125?text=Hello%20Simon,%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20discussing%20a%20project%20or%20potential%20opportunity.%20I'd%20love%20to%20connect."
                 target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 transition hover:text-purple-300"
               >
                 <FaWhatsapp />
@@ -110,9 +111,14 @@ const Footer = () => {
 
           <button
             onClick={scrollToTop}
-            className="grid h-11 w-11 place-items-center rounded-xl border border-purple-500/30 bg-purple-500/10 text-xl text-purple-300 transition hover:-translate-y-1 hover:bg-purple-500/20"
+            aria-label="Scroll to top"
+            className="group relative grid h-11 w-11 place-items-center overflow-hidden rounded-xl border border-purple-500/30 bg-purple-500/10 text-xl text-purple-300 shadow-[0_0_25px_rgba(168,85,247,0.18)] transition duration-300 hover:-translate-y-1 hover:border-purple-400/60 hover:bg-purple-500/20"
           >
-            <FiArrowUp />
+            <span className="absolute inset-0 rounded-xl bg-purple-400/10 opacity-0 blur-xl transition group-hover:opacity-100"></span>
+
+            <span className="absolute h-8 w-8 rounded-full border border-purple-400/20 animate-ping"></span>
+
+            <FiArrowUp className="relative z-10 animate-[arrowFloat_1.4s_ease-in-out_infinite]" />
           </button>
         </div>
       </div>

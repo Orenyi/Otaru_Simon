@@ -53,12 +53,13 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://wa.me/2348167527125"
+              href="https://wa.me/2348167527125?text=Hello%20Simon,%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20discussing%20a%20project%20or%20potential%20opportunity.%20I'd%20love%20to%20connect."
               target="_blank"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-7 py-4 text-sm font-semibold text-white backdrop-blur transition hover:-translate-y-1 hover:border-purple-400/40 hover:bg-white/10"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 transition hover:text-purple-300"
             >
               <FaWhatsapp />
-              Let’s Chat
+              +234 816 752 7125
             </a>
           </div>
         </div>

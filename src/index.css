@@ -55,3 +55,16 @@ h5,
 h6 {
   font-family: var(--font-heading);
 }
+
+@keyframes arrowFloat {
+  0%,
+  100% {
+    transform: translateY(2px);
+    opacity: 0.75;
+  }
+
+  50% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
