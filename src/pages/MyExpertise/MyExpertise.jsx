@@ -11,7 +11,7 @@ const expertiseData = [
     title: "Front-End Development",
     description:
       "Building responsive and interactive UIs with modern technologies.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "TypeScript"],
     color: "text-purple-400",
     glow: "bg-purple-500/20",
   },

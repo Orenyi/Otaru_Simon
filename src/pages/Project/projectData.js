@@ -4,6 +4,7 @@ import resumeAI from "../../assets/projects/resume_ai.webp";
 import vima from "../../assets/projects/vima.webp";
 import timeApp from "../../assets/projects/timeapp.webp";
 import cleva from "../../assets/projects/cleva.webp";
+import studycircle from "../../assets/projects/studycircle.webp";
 
 export const projects = [
   {
@@ -18,6 +19,16 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Study Circle",
+    description:
+      "StudyCircle helps university students collaborate on assignments, organize study sessions, share resources and stay productive from one modern workspace.",
+    image: studycircle,
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    liveLink: "https://studycircle-vyo1.onrender.com",
+    githubLink: "https://github.com/circorangeintern/Vanguard-circle",
+  },
+  {
+    id: 3,
     title: "Dental Care",
     description:
       "Dental clinic website with online appointment booking and fully responsive layout.",
@@ -27,7 +38,7 @@ export const projects = [
     githubLink: "https://github.com/Orenyi/OTARU_dental_care",
   },
   {
-    id: 3,
+    id: 4,
     title: "OTARU FIT",
     description:
       "Modern fitness website with animated sections, trainer showcases and responsive design.",
@@ -37,7 +48,7 @@ export const projects = [
     githubLink: "https://github.com/Orenyi/OTARU_fit",
   },
   {
-    id: 4,
+    id: 5,
     title: "Cleva Clone",
     description: "Smart USD banking for you and your business",
     image: cleva,
@@ -47,7 +58,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "TimeApp",
     description:
       "A responsive real-time clock web application built with React and Tailwind CSS",
@@ -58,7 +69,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Vima",
     description:
       "Get the Ultimate Nigerian TV Experience and More – Download Our App Now!",

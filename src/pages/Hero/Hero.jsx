@@ -68,7 +68,8 @@ const Hero = () => {
           >
             I’m Simon Orenyi Otaru, a Front-End Developer and Computer Science
             undergraduate passionate about creating intuitive web applications
-            with React.js, Tailwind CSS, Supabase, and AI integrations.
+            with TypeScript, React.js, Tailwind CSS, Supabase, and AI
+            integrations.
           </motion.p>
 
           <motion.div
@@ -154,6 +155,9 @@ const Hero = () => {
                   &nbsp;&nbsp;
                   <span className="text-cyan-300">"JavaScript"</span>,
                   <span className="text-cyan-300">"Supabase"</span>],
+                  <br />
+                  &nbsp;&nbsp;
+                  <span className="text-cyan-300">"TypeScript"</span>,
                   <br />
                   &nbsp;&nbsp;focus:{" "}
                   <span className="text-green-300">

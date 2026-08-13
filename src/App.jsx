@@ -7,6 +7,7 @@ import Stack from "./pages/Stack/Stack";
 import Contact from "./pages/Contact/Contact";
 import Navbar from "./pages/Navbar/Navbar";
 import Footer from "./pages/Footer/Footer";
+import Certificate from "./pages/Certificate/Certificate";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Project />
       <Stack />
       <Experience />
+      <Certificate />
       <Contact />
       <Footer />
     </section>
